@@ -17,11 +17,11 @@ setTimeout(          //wait for listener to run
     function(){
         if(supportsAutoplay){
         	video.onloadeddata = function(){
-	$('#bg-video-box').addClass('shown');
+	$('.hidden').addClass('shown');
 }
         }
         else {
-        	$('#bg-video-box').addClass('shown');
+        	$('.hidden').addClass('shown');
         }
     },
     waitTime
