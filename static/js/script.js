@@ -3,9 +3,9 @@ var waitTime;
 
 $('#bg-video').vide({
 	mp4: 'static/media/video/bg.mp4',
-	poster: 'static/media/img/bg.jpg',
+	poster: 'static/media/img/island.png',
 }, {
-	posterType: 'jpg',
+	posterType: 'png',
 	origin: 'content-box',
 });
 instance = $('#bg-video').data('vide');
